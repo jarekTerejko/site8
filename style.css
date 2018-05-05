@@ -22,6 +22,12 @@ body {
     padding: 0;
 }
 
+/*
+html {
+    scroll-behavior: smooth;
+}
+*/
+
 h1,
 p,
 h2,
@@ -45,7 +51,7 @@ h3 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
+/*    position: relative;*/
 }
 
 .main-nav {
@@ -108,7 +114,7 @@ header {
 }
 
 .cta {
-    padding: 180px 0;
+    padding: 170px 0;
     grid-column: 9/13;
 }
 
